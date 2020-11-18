@@ -5,7 +5,7 @@ ARCHS = armv7 arm64 arm64e
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = fleetingchances
+TWEAK_NAME = FleetingChances
 
 fleetingchances_FILES = Tweak.x
 fleetingchances_CFLAGS = -fobjc-arc

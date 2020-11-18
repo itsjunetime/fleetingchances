@@ -1,8 +1,8 @@
 Package: com.janshai.fleetingchances
-Name: fleetingchances
+Name: FleetingChances
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Disables fleets in the twitter app
 Maintainer: Janshai
 Author: Janshai
 Section: Tweaks
