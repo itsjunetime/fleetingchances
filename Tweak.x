@@ -1,11 +1,5 @@
 %hook T1FleetLineHeaderViewController
-
-- (id)view {
-	id view = %orig;
-	[(UIView *)view setHidden:YES];
-	return view;
+- (void)_t1_configureFleets {
+	return;
 }
-
-- (void)setFleetLineView:(id)arg1 {}
-
 %end
