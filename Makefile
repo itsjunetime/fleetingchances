@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = FleetingChances
 
-fleetingchances_FILES = Tweak.x
-fleetingchances_CFLAGS = -fobjc-arc
+FleetingChances_FILES = Tweak.x
+FleetingChances_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
